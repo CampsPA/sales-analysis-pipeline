@@ -24,15 +24,14 @@ This project demonstrates an end-to-end workflow that starts with messy sales da
 ---
 
 ## Repository Structure
-/data/        # Raw and cleaned Excel files
-/sql/         # SQL query images or scripts
-/scripts/
-    import_excel_to_sql.py # Script to import cleaned Excel data into PostgreSQL
-    export_sql_to_csv.py # Script to export PostgreSQL tables to CSV for Power BI
-/outputs/     # Exported CSV files for Power BI
-README.md     # Project documentation
-
-
+```
+/data/                      # Raw and cleaned Excel files  
+/sql/                       # SQL query images or scripts  
+/scripts/                  
+    import_excel_to_sql.py  # Script to import cleaned Excel data into PostgreSQL  
+    export_sql_to_csv.py    # Script to export PostgreSQL tables to CSV for Power BI  
+/outputs/                   # Exported CSV files for Power BI  
+README.md                   # Project documentation  
 ---
 
 ## How to Use
